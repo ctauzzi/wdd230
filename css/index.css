@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+
+header {
+    display: grid;
+    grid-template-columns: 100px auto;
+    grid-template-rows: 100px auto;
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: center;
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+    background-color: rgb(26, 92, 173);
+    border: 10px;
+    border-color: white;
+    border-style: double;
+    border-radius: 15px 15px 15px 15px;
+}
+
+h1.banner-head {
+    color: white;
+    grid-column: 2/6;
+    grid-row: 1/2;
+    margin-right: 100px;
+}
+h2.course-title {
+    color: whitesmoke;
+    grid-column: 2/6;
+    grid-row: 2/3;
+    margin-right: 100px;
+}
+
+img.logo-img {
+    grid-column: 1/2;
+    grid-row: 0/1;
+    margin: 10px;
+    max-height: 150px;
+    border: 2px solid white;
+    border-radius: 5px 5px 5px 5px;
+}
+main {
+    background: lightgray;
+    display: flex;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: 10px;
+    border-style: groove;
+
+}
+
+img.main-img-1 {
+    width: 25%;
+    margin: 10px;
+    margin-left: 20px;
+    border: 5px;
+    border-style: ridge;
+}
+
+img.main-img-2 {
+    width: 25%;
+    margin: 10px;
+    margin-left: 200px;
+    border: 5px;
+    border-style: ridge;
+}
+
+ul {
+    margin: 20px;
+    margin-left: 205px;
+    background: rgb(26, 92, 173);
+    width: 200px;
+    border: 5px double black;
+}
+
+li {
+    margin: 10px;
+    margin-left: -10px;
+    font-weight: Bold;
+    font-family: "Open Sans", sans-serif;
+    color: whitesmoke;
+  }
+
+a {
+    color: whitesmoke;
+}
+
+a:hover{
+    text-decoration: wavy;
+    color: gray;
+}
+
+footer {
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+}
+
