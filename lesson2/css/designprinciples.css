@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+
+h1, h2, h3, p {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    background-color: rgb(59, 59, 134);
+    color: white;
+    padding: 10px;
+    width: 175px;
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+    padding: 5px;
+}
+section {
+    margin: 10px;
+    border: 3px solid black;
+    border-radius: 3px 3px 3px 3px;
+    background-color: lightblue;
+}
+
+img {
+    display: block;
+    align-items: center;
+    margin: 0 auto;
+    border: 6px;
+    border-style: ridge;
+    border-radius: 10px;
+}
+
+p {
+    text-align: center;
+    padding: 4px;
+    margin: 4px;
+    font-weight: bold;
+}
+
+a {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+a:hover {
+    text-decoration: wavy;
+    color: red;
+}
+
+footer {
+    font-family: 'Roboto Condensed', sans-serif;
+    display: block;
+    margin: 0 auto;
+    color: white;
+    background-color: rgb(59, 59, 134);
+    width: 350px;
+    border-radius: 2px 2px 2px 2px;
+}
+
+@media only screen and (max-width: 600px) {
+    main {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    main {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    main {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}

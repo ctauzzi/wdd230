@@ -39,26 +39,29 @@ img.logo-img {
     border-radius: 5px 5px 5px 5px;
 }
 main {
-    background: lightgray;
     display: flex;
+    background: lightgray;
     margin-top: 5px;
     margin-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
     border: 10px;
     border-style: groove;
+    padding: 5px;
 
 }
 
 img.main-img-1 {
-    width: 25%;
     margin: 10px;
+    width: 25%;
     margin-left: 20px;
     border: 5px;
     border-style: ridge;
 }
 
 img.main-img-2 {
-    width: 25%;
     margin: 10px;
+    width: 25%;
     margin-left: 200px;
     border: 5px;
     border-style: ridge;
