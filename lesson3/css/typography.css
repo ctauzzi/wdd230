@@ -66,7 +66,7 @@ a {
 a:hover {
     --d: 100%;
     background-color: lightgreen;
-    border-style: ridge black;
+    border-style: ridge;
     border: solid 1px white;
     padding: 5px;
 }

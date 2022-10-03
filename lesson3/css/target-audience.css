@@ -65,7 +65,7 @@ a:hover {
 img {
     display: block;
     margin: 0 auto;
-    size: 50%;
+    width: 50%;
     padding: 10px;
 }
 footer {
@@ -91,13 +91,13 @@ footer {
     section.steve {
         grid-column: 1/2;
         grid-row: 2/4;
-        margin-top: -125px;
+        margin-top: -75px;
         padding: 3px;
     }
     section.joyce {
         grid-column: 2/3;
         grid-row: 2/4;
-        margin-top: -125px;
+        margin-top: -75px;
         padding: 3px;
     }
     h1 {
@@ -130,5 +130,4 @@ footer {
         padding: 10px;
     }
     
-    }
 }
