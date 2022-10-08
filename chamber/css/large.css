@@ -1,8 +1,8 @@
 @media only screen and (min-width: 1000px){
     header {
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 200px;
+        grid-template-columns: 1fr 1fr 100px;
+        grid-template-rows: 200px 50px;
         margin: 0 auto;
         align-items: center;
         max-width: 1080px;
@@ -39,7 +39,7 @@
 
     img.chamberimg {
         grid-column: 2/4;
-        width: 75%;
+        width: 50%;
         height: 100%;
         align-self: center;
         padding: 5px;
@@ -52,8 +52,10 @@
     }
 
     #heading {
-        grid-column: 1/6;
-        margin: 0 auto;
+        grid-column: 2/6;
+        margin-left: 40px;
+        margin-top: 20px;
+        padding: 5px;
     }
 
     main {
@@ -86,7 +88,7 @@
         grid-column: 2;
         grid-row: 3;
     }
-    .spotlight {
+    div.spotlight {
         display: block;
         grid-column: 3;
         grid-row: 1/4;
