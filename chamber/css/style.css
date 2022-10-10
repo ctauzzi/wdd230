@@ -66,6 +66,7 @@ div.date {
     max-width: 450px;
     align-self: center;
     margin-top: 30px;
+    border-radius: 5px;
 }
 
 button {

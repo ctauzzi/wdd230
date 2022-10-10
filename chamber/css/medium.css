@@ -41,6 +41,11 @@
         grid-column: 2/3;
         grid-row: 5/6;
     }
+
+    img.footerimg {
+        height: 100px;
+        width: 100px;
+    }
     footer {
         display: flex;
         flex-wrap:wrap;
