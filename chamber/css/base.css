@@ -139,6 +139,12 @@ footer {
     border-radius: 10px;
     color: darkblue;
 }
+#map {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    align-self: center;
+}
 
 img.footerimg {
     display: block;

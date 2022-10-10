@@ -91,7 +91,7 @@
     div.spotlight {
         display: block;
         grid-column: 3;
-        grid-row: 1/4;
+        grid-row: 1/5;
     }
     #spotlight3 {
         display: block;
