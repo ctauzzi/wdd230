@@ -96,6 +96,7 @@ nav ul.open {
 nav ul li a {
     display: block;
     padding: 0.8em 2vw;
+    background-color: white;
     text-decoration: none;
     color: black;
     border-top: 1px solid rgba(0, 0, 0, 0.5);
@@ -144,6 +145,10 @@ footer {
     text-align: center;
     margin: 0 auto;
     align-self: center;
+    text-decoration: none;
+    background-color: rgba(143, 200, 215, 0.5);
+    height: 20px;
+    width: 30px;
 }
 
 img.footerimg {
