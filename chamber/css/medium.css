@@ -16,40 +16,44 @@
     }
 
     main {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 2fr 2fr 2fr 2fr 2fr;
+        display: block;
     }
 
-    #hero {
-        grid-column: 1/3;
-        grid-row: 1/2;
+    #aurora-pic {
+        min-width: 600px;
     }
 
     #news {
-        grid-column: 1/3;
-        grid-row: 2/3;
+        height: 200px;
     }
 
     div.spotlight {
         display: flex;
         justify-content: space-around;
-        grid-column: 1/3;
-        grid-row: 3/4;
+    }
+    
+    #spotlight1 {
+        width: 250px;
+    }
+
+    #wazoosimg {
+        width: 240px;
+    }
+
+    #bookbarnimg {
+        width: 240px;
+    }
+
+    #spotlight2 {
+        width: 250px;
     }
 
     #join {
         display: block;
-        grid-column: 1/3;
-        grid-row: 4/5;
     }
-    #event {
-        grid-column: 1/2;
-        grid-row: 5/6;
-    }
-    #weather {
-        grid-column: 2/3;
-        grid-row: 5/6;
+
+    button #joinsectionbtn {
+        background-color: rgba(255, 255, 255, 0.3);
     }
 
     img.footerimg {
@@ -59,7 +63,7 @@
     footer {
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: 250px 75px;
+        grid-template-rows: 250px 150px;
     }
 
     footer div.footer-content {
@@ -69,6 +73,7 @@
     }
     
     footer div.copyright {
+        display: block;
         grid-row: 2;
     }
 }

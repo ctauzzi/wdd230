@@ -15,5 +15,6 @@ datefield.innerHTML = `<em>${fulldate}</em>`;
 function toggleMenu() {
     document.getElementById("primaryNav").classList.toggle("open");
 }
-const button = document.getElementById("button");
+const button = document.getElementById("navbutton");
 button.onclick = toggleMenu;
+
