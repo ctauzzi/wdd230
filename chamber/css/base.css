@@ -83,6 +83,15 @@ a.socials {
     grid-row: 1;
 }
 
+div.monday-box {
+    display: none;
+    background-color: rgba(255, 255, 255, 0.7);
+    border: 1px solid black;
+    grid-column: 2/5;
+    text-align: center;
+    margin: 5px;
+}
+
 nav ul{
     text-decoration: none;
     list-style-type: none;
@@ -152,7 +161,7 @@ section {
 }
 
 #aurora-pic {
-    max-width:400px;
+    width:400px;
     height:250px;
     margin: auto;
     display: block;
@@ -194,6 +203,14 @@ section {
 }
 
 #join {
+    display: none;
+}
+
+#openingimg {
+    display:none;
+}
+
+#joinimg {
     display: none;
 }
 
