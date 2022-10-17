@@ -187,7 +187,16 @@ section {
     font-style: italic;
 }
 
-#contact {
+#company-wazoos {
+    border-top:1px solid rgba(0, 0, 0, 0.5);
+}
+
+
+#company-bookbarn {
+    border-top:1px solid rgba(0, 0, 0, 0.5);
+}
+
+#company-candylane {
     border-top:1px solid rgba(0, 0, 0, 0.5);
 }
 
@@ -198,6 +207,7 @@ section {
     text-align: center;
     margin: auto;
 }
+
 #spotlight3 {
     display: none;
 }
