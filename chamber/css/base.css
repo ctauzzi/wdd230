@@ -223,6 +223,10 @@ section {
     display: none;
 }
 
+#joinsectionbtn {
+    font-family: 'Noto Sans', sans-serif;
+}
+
 footer {
     font-family: 'Noto Sans', sans-serif;
     display: block;
