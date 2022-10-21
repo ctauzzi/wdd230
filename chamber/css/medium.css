@@ -19,8 +19,22 @@
         display: block;
     }
 
+    #hero {
+        position: relative;
+    }
+
+    #hero-heading {
+        top: 20px;
+        right: 400px;
+    }
+
+    #joinbutton {
+        top: 200px;
+    }
+
     #aurora-pic {
         min-width: 600px;
+        max-width: 700px;
     }
 
     #news {

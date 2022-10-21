@@ -12,12 +12,11 @@
     <link rel="stylesheet" href="./css/medium.css">
     <link rel="stylesheet" href="./css/large.css">
     <script defer src="./js/script.js"></script>
-    <script defer src="./js/mondayTuesday.js"></script>
 </head>
 <body>
     <header>
         <h2 id="heading">Aurora City Chamber of Commerce</h2>
-        <a class="socials" href=""><img class='socialsimg' src="./images/pngfind.com-facebook-symbol-png-104225.png" alt="socials"></a>
+        <a class="socials" href=""><img class='socialsimg' src="./images/pngfind.com-facebook-symbol-png-104225.webp" alt="socials"></a>
         <img class='chamberimg' src="./images/rsz_aurora.webp" alt="chamber">
         <nav>
             <button id="navbutton">&#9776;</button>
@@ -33,19 +32,26 @@
     </header>
 <main>
     <section id="hero">
+        <picture>
+            <source media="(max-width: 600px)" srcset="./images/rsz_aurorapicturesmall.jpg">
+            <source media="(max-width: 799px)" srcset="./images/rsz_aurorapicture-medium.jpg">
+            <source media="(min-width: 800px)" srcset="./images/aurorapicture-large.jpg">
+            <img id="aurora-pic" src="./images/aurorapicture-large.jpg" alt="aurorasuburbs">
+        </picture>
         <h3 id="hero-heading">Welcome to Aurora</h3>
         <button id="joinbutton" type="button">Join the chamber!</button>
-        <img id="aurora-pic" src="./images/aurorapicture.webp" alt="aurorasuburbs">
     </section>
     <section id="event">
         <h3>Grand Opening!</h3>
         <p>Burger Town will be opening Friday at 12:00pm. See you there!</p>
-        <img id="openingimg" src="./images/grandopening.jpg" alt="openimg">
+        <img id="openingimg" src="./images/grandopening.webp" alt="openimg">
     </section>
     <section id="weather">
         <h1 id="weathersymbol">&#x26C5;</h1>
-        <p>67° F</p>
-        <p>Party Cloudy</p><p>Wind Speed: 2 MPH</p>
+        <p><span id="temp">34</span>&#8457;</p>
+        <p>Party Cloudy</p>
+        <p>Wind Speed: <span id="windSpeed">10</span> mph</p>
+        <p id="wind">Wind Chill: <span id="windChill">N/A</span></p>
     </section>
     <section id="news">
         <h3>News Release</h3>
@@ -57,7 +63,7 @@
     <div class="spotlight">
     <section id="spotlight1">
         <h3>Wazoo's Ski Shop</h3>
-        <img id="wazoosimg" src="./images/wazoos.jpg" alt="wazoo's-ski">
+        <img id="wazoosimg" src="./images/wazoos.webp" alt="wazoo's-ski">
         <p id="wazoo-slogan">We are here for you to hit the slopes!</p>
         <div id="company-wazoos">
             <p>ski@wazooski.com</p>
@@ -66,7 +72,7 @@
     </section>
     <section id="spotlight2">
         <h3>Book Barn</h3>
-        <img id="bookbarnimg" src="./images/bookbarn.png" alt="barnbooks">
+        <img id="bookbarnimg" src="./images/bookbarn.webp" alt="barnbooks">
         <p id="book-slogan">Any book you need is in the barn!</p>
         <div id="company-bookbarn">
             <p>read@bookbarn.org</p>
@@ -86,12 +92,12 @@
     <section id="join">
         <h3><button id=joinsectionbtn type="button">Join us today!</button></h3>
         <p>Click here to learn how to join the chamber and more about the benefits today!</p>
-        <img id="joinimg" src="./images/joinus.jpg" alt="joincommerce">
+        <img id="joinimg" src="./images/joinus.webp" alt="joincommerce">
     </section>
 </main>
 <footer>
     <div class="footer-content">
-    <img class="footerimg" src="./images/rsz_aurora.png" alt="footerimg">
+    <img class="footerimg" src="./images/rsz_aurora.webp" alt="footerimg">
     <h3>Aurora Chamber of Commerce</h3>
     <p>12345 Government St, Aurora CO 80016</p>
     <p>chamber@auroracitycoc.com</p>
