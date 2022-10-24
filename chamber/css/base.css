@@ -135,6 +135,7 @@ section {
     align-items: center;
     padding: 15px;
     margin: 5px;
+    display: block;
 }
 
 #hero {
@@ -144,7 +145,7 @@ section {
 
 #hero-heading {
     position: absolute;
-    top: 350px;
+    top: 380px;
     margin: 20px;
     color: black;
 }
@@ -153,7 +154,7 @@ section {
     position: absolute;
     background-color: rgba(255, 255, 255, 0.8);
     right: 80px;
-    top: 520px;
+    top: 570px;
 }
 
 #joinbutton:hover {
