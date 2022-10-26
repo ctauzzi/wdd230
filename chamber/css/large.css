@@ -2,7 +2,7 @@
     #wrapper {
         margin-left: auto;
         margin-right: auto;
-        width: 1280px;
+        width: 1500px;
     }
     
     header {
@@ -72,6 +72,11 @@
         display: grid;
         grid-template-columns: 1fr 2fr 1fr;
         grid-template-rows: 1fr 1fr 1fr;
+    }
+
+    section {
+        padding: 1em;
+        margin: 5px;
     }
 
     #hero {
@@ -170,6 +175,8 @@
         display: block;
         width: 250px;
         height: 300px;
+        margin: 5px;
+        padding: 1em;
     }
 
     #wazoosimg {
