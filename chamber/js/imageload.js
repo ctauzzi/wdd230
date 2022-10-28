@@ -30,4 +30,3 @@ const io = new IntersectionObserver (
 pimages.forEach(image => {
     io.observe(image);
 })
-
