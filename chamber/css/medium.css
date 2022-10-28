@@ -4,7 +4,7 @@
         grid-template-columns: 1fr 1fr 1fr 1fr 100px;
         grid-template-rows: 1fr 0.5fr;
     }
-    picture img:hover {
+    picture img.discover-img:hover {
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
         background-color: white;
     }
