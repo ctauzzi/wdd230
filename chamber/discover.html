@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="./css/large.css">
     <script defer src="./js/script.js"></script>
     <script defer src="./js/imageload.js"></script>
+    <script defer src="./js/dayslastvisited.js"></script>
 </head>
 <body>
     <div id="wrapper">
@@ -33,43 +34,46 @@
         <div class='monday-box'>Meeting Wednesday!</div>
     </header>
     <main>
-        <picture>
+        <div id="discover-main">
+        <div class="discover-date"></div>
+        <h1 id="visitMessage">Days since last visit: <span id="daysSince"></span></h1>
+        <picture id="discover-img1">
             <img class="discover-img" src="https://dummyimage.com/300x400/ccc/fff" data-src="./images/Aurora-Reservoir.jpg" alt="Reservoir" title="Aurora Reservoir">
             <p>The aurora reservoir, a beach without the ocean!</p>
         </picture>
-        <picture>
+        <picture id="discover-img2">
             <img class="discover-img" src="https://dummyimage.com/300x400/ccc/fff" data-src="./images/auroraaerial.jpg" alt="Aerial" title="Aurora Suburbs">
             <p>Aurora has many beautiful neighborhoods like these.</p>
         </picture>
-        <picture>
+        <picture id="discover-img3">
             <img class="discover-img" src="https://dummyimage.com/300x400/ccc/fff" data-src="./images/gaylordresort.jpg" alt="Resort" title="Gaylord Resort">
             <p>The gaylord resort is a taste of paradise right in the heart of Aurora.</p>
         </picture>
-        <picture>
+        <picture id="discover-img4">
             <img class="discover-img" src="https://dummyimage.com/300x400/ccc/fff" data-src="./images/Morrison-Nature-Center.jpg" alt="Nature" title="Morrison Nature Center">
             <p>Learn about the natural surroundings at the Morrison Nature Center!</p>
         </picture>
-        <picture>
+        <picture id="discover-img5">
             <img class="discover-img" src="https://dummyimage.com/300x400/ccc/fff" data-src="./images/rsz_aurorapicture300.jpg" alt="Aurora" title="Aurora Neighborhood">
             <p>There are many beautiful places to live in Aurora.</p>
         </picture>
-        <picture>
+        <picture id="discover-img6">
             <img class="discover-img" src="https://dummyimage.com/300x400/ccc/fff" data-src="./images/Southlands-in-Aurora-CO-1600x800-1-1600x800.jpg" alt="Southlands1" title="Southlands Mall">
             <p>The southlands mall is a great place to catch the latest films!</p>
         </picture>
-        <picture>
+        <picture id="discover-img7">
             <img class="discover-img" src="https://dummyimage.com/300x400/ccc/fff" data-src="./images/Southlands-in-Aurora-CO-2.jpg" alt="Southlands2" title="Southlands Mall">
             <p>Shopping outdoors with beatiful scenery, welcome to Southlands.</p>
         </picture>
-        <picture>
+        <picture id="discover-img8">
             <img class="discover-img" src="https://dummyimage.com/300x400/ccc/fff" data-src="./images/Stanley-Marketplace-CO-Top-1600x800-1-1600x800.jpg" alt="Stanley" title="Stanley Marketplace">
             <p>An old aircraft hangar turned into local business galore, great eats as well!</p>
         </picture>
-        <picture>
+        <picture id="discover-img9">
             <img class="discover-img" src="https://dummyimage.com/300x400/ccc/fff" data-src="./images/Southlands-Lifestyle-Center-Aurora-1024x685.jpg" alt="Southlands3" title="Southlands Mall">
             <p>Even in the winter you can stay warm while outdoors at Southlands.</p>
         </picture>
-
+        </div>
     </main>
     <footer>
         <div class="footer-content">
