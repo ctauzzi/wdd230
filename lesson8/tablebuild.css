@@ -1,0 +1,50 @@
+table {
+    margin: 0 auto;
+    text-align: center;
+}
+tfoot tr {
+    background-color: lightblue;
+}
+tr:nth-child(even) {
+    background-color: #ccc;
+}
+
+tr:nth-child(3) {
+    background-color: rgba(189, 227, 208, 0.679);
+}
+
+tr:nth-child(5) {
+    background-color: rgba(189, 227, 208, 0.679);
+}
+
+tr:nth-child(7) {
+    background-color: rgba(189, 227, 208, 0.679);
+}
+
+tr:nth-child(6) td:nth-child(1) {
+    font-style: italic;
+}
+
+tr:nth-child(5) td:nth-child(3) {
+    background-color: steelblue;
+    color: white;
+}
+
+thead th {
+    background-color: lightblue;
+    font-weight: bold;
+    font-size: 24px;
+}
+tbody th {
+    background-color: steelblue;
+    color: white;
+}
+
+td, th {
+    padding: 5px;
+}
+
+table, td, th{
+    border: 1px solid gray;
+    border-collapse: collapse;
+}
