@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join Page</title>
+    <meta name="description" content="Join page for users to receive membership for chamber of commerce.">
+    <link rel="shortcut icon" href="./images/favicon-chamber.png">
+    <link rel="stylesheet" href="../normalize.css">
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/medium.css">
+    <link rel="stylesheet" href="./css/large.css">
+    <script defer src="./js/script.js"></script>
+</head>
+<body>
+    <div id="wrapper">
+        <header>
+            <h2 id="heading">Join Today</h2>
+            <a class="socials" href="socials.html"><img class='socialsimg' src="./images/pngfind.com-facebook-symbol-png-104225.webp" alt="socials"></a>
+            <img class='chamberimg' src="./images/rsz_aurora.webp" alt="chamber">
+            <nav>
+                <button id="navbutton">&#9776;</button>
+                <ul id="primaryNav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="discover.html">Discover</a></li>
+                <li><a href="join.html">Join</a></li>
+                <li><a href="">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="date"></div>
+            <div class='monday-box'>Meeting Wednesday!</div>
+        </header>
+        <main id="main-join">
+        <div id="join-form">
+            <form method="get" action="thankyou.html">
+            <label for="fname">First Name*:</label>
+            <input id="fname" type="text" name="firstname" required>
+            <label for="lname">Last Name*:</label>
+            <input id="lname" type="text" name="lastname" required>
+            <label for="title">Business Position Title</label>
+            <p>(Only letters, spaces and dashes and at least 7 characters)</p>
+            <input id="title" type="text" pattern="[- A-Za-z]+" minlength="7" name="title">
+            <label for="email">Email Address*:</label>
+            <input id="email" type="email" name="email" required placeholder="email@gmail.com">
+            <label for="phone">Cell Number*:</label>
+            <input id="phone" type="tel" name="cell" required>
+            <label for="business">Business Name/Title:</label>
+            <input id="business" type="text" name="business" required>
+            <label id="member">Enter Your Membership:</label>
+            <div id="radio">
+                <label for="one">NP</label>
+                <input type="radio" id="one" name="mlevel" value="Bronze">
+                
+                <label for="two">Bronze</label>
+                <input type="radio" id="two" name="mlevel" value="Silver">
+                
+                <label for="three">Silver</label>
+                <input type="radio" id="three" name="mlevel" value="Gold">
+                
+                <label for="four">Gold</label>
+                <input type="radio" id="four" name="mlevel" value="Platinum">   
+            </div>
+            <label for="message">Business Description:</label>
+            <textarea id="message"></textarea>
+            <input id="time-loaded" type="hidden" name="todaydate">
+            <input type="submit" value="Join the Chamber">
+            </form>
+        </div>
+        <div id="join-membership">
+            <h1>Membership Level Benefits</h1>
+            <div id="np">
+                <h2>NP Membership</h2>
+                <ul>
+                <li>For non profit organizations and there is no fee</li>
+                </ul>
+            </div>
+            <div id="bronze">
+                <h2>Bronze Membership</h2>
+                <ul>
+                <li>15% Discount on events</li>
+                <li>10% discount on advertising</li>
+                <li>Fee of $50/month</li>
+                </ul>
+            </div>
+            <div id="silver">
+            <h2>Silver Membership</h2>
+                <ul>
+                <li>25% discount on events</li>
+                <li>15% discount on advertising</li>
+                <li>Free participation in the trade fair</li>
+                <li>Fee of $100/month</li>
+                </ul>
+            </div>
+            <div id="gold">
+            <h2>Gold Membership</h2>
+                <ul>
+                <li>50% discount on events</li>
+                <li>50% discount on advertising</li>
+                <li>Free participation in the trade fair</li>
+                <li>5 free featured ads per year</li>
+                <li>1 free training per quarter</li>
+                <li>Fee of $250/month</li>
+                </ul>
+            </div>
+        </div>
+        </main>
+        <footer>
+            <div class="footer-content">
+                <img class="footerimg" src="./images/rsz_aurora.webp" alt="footerimg">
+                <h3>Aurora Chamber of Commerce</h3>
+                <p>12345 Government St, Aurora CO 80016</p>
+                <p>chamber@auroracitycoc.com</p>
+                <p>303-111-2222</p>
+                <a id="map" href="https://www.google.com/maps/d/u/0/viewer?ie=UTF8&oe=UTF8&msa=0&mid=1ztYWoW9e8XeDaFEp4OnSvlR4i6E&ll=39.70753425453123%2C-104.856704&z=13" target="_blank">&#128205;</a>
+                </div>
+                <div class="copyright">
+                <p>&copy;<span class="year"></span> Cayson Fantauzzi</p>
+                <p>Last Updated: <span class="updated"></span></p>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>

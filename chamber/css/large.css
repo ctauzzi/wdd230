@@ -68,7 +68,7 @@
         padding: 5px;
     }
 
-    main {
+    #default {
         display: grid;
         grid-template-columns: 1fr 2fr 1fr;
         grid-template-rows: 1fr 1fr 1fr;
@@ -289,6 +289,22 @@
     footer div.copyright {
         grid-row: 2;
         display: flex;
+    }
+
+    #main-join {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+    }
+
+    #main-join li {
+        font-family: 'Noto Sans', sans-serif;
+        font-size: 18px;
+    }
+    #main-join ul {
+        display: table;
+        margin: 0 auto;
+        text-align: left;
     }
 
 }

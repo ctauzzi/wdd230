@@ -281,3 +281,70 @@ div.copyright {
     padding: 1em;
     margin: 5px;
 }
+
+form {
+    font-family: 'Noto Sans', sans-serif;
+    margin: 5px auto;
+    padding: 5px;
+}
+
+#thankyou-main {
+    display: block;
+}
+
+form input:required {
+    border-left: red solid 6px;
+}
+
+form input:required:valid {
+    border-left: green solid 6px;
+}
+
+label, input {
+    display: block;
+    font-size: 1.5em;
+    padding: 5px;
+}
+
+textarea {
+    height: 150px;
+    width: 300px;
+}
+
+#join-form {
+    border: 3px solid black;
+    background-color: rgba(255,255,255,0.8);
+    padding: 1em;
+}
+
+#join-membership {
+    padding: 1em;
+}
+
+#np {
+    background-color: rgba(255,255,255,0.8);
+    border: 1px solid  black;
+    padding: 5px;
+    margin: 3px;
+}
+
+#bronze {
+    background-color: #CD7F32;
+    border: 1px solid  black;
+    padding: 5px;
+    margin: 3px;
+}
+
+#silver {
+    background-color: #C0C0C0;
+    border: 1px solid  black;
+    padding: 5px;
+    margin: 3px;
+}
+
+#gold {
+    background-color: #FFD700;
+    border: 1px solid  black;
+    padding: 5px;
+    margin: 3px;
+}
