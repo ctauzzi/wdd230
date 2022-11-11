@@ -1,0 +1,148 @@
+{
+    "businesses": [
+        {
+            "name": "Wazoo's Ski Shop",
+            "location": {
+                "address1": "111 Main St",
+                "city": "Aurora",
+                "state": "CO",
+                "zip_code": "180016"
+            },
+            "phone": "303-111-3333",
+            "website": "https://www.auroragov.org",
+            "logo": "images/wazoos.webp"
+        },
+        {
+            "name": "Book Barn", 
+            "location": {
+                "address1": "222 Main St",
+                "city": "Aurora",
+                "state": "CO",
+                "zip_code": "80016"
+            },
+            "phone": "303-111-4444",
+            "website": "https://www.auroragov.org",
+            "logo": "images/bookbarn.webp"
+        },
+        {
+            "name": "Candy Lane Sweets",
+            "location": {
+                "address1": "333 Main St",
+                "city": "Aurora",
+                "state": "CO",
+                "zip_code": "80016"
+            },
+            "phone": "303-111-5555",
+            "website": "https://www.auroragov.org",
+            "logo": "images/candyimg.webp"
+        },
+        {
+            "name": "Video Game Emporium",
+            "location": {
+                "address1": "444 Main St",
+                "city": "Aurora",
+                "state": "CO",
+                "zip_code": "80016"
+            },
+            "phone": "303-111-6666",
+            "website": "https://www.auroragov.org",
+            "logo": "images/videogame.webp"
+        },
+        {
+            "name": "Mail Express",
+            "location": {
+                "address1": "555 Main St",
+                "city": "Aurora",
+                "state": "CO",
+                "zip_code": "80016"
+            },
+            "phone": "303-111-7777",
+            "website": "https://www.auroragov.org",
+            "logo": "images/mailexpress.webp"
+        },
+        {
+            "name": "The Real Ice Cream Parlor",
+            "location": {
+                "address1": "667 Main St",
+                "city": "Aurora",
+                "state": "CO",
+                "zip_code": "80016"
+            },
+            "phone": "303-111-8888",
+            "website": "https://www.auroragov.org",
+            "logo": "images/icecream.webp"
+        },
+        {
+            "name": "Houdini Magic",
+            "location": {
+                "address1": "777 Main St",
+                "city": "Aurora",
+                "state": "CO",
+                "zip_code": "80016"
+            },
+            "phone": "303-111-9999",
+            "website": "https://www.auroragov.org",
+            "logo": "images/magicshop.webp"
+        },
+        {
+            "name": "Bella Boutique",
+            "location": {
+                "address1": "888 Main St",
+                "city": "Aurora",
+                "state": "CO",
+                "zip_code": "80016"
+            },
+            "phone": "303-222-1111",
+            "website": "https://www.auroragov.org",
+            "logo": "images/boutique.jpg"
+        },
+        {
+            "name": "Oriental Cuisine",
+            "location": {
+                "address1": "999 Main St",
+                "city": "Aurora",
+                "state": "CO",
+                "zip_code": "80016"
+            },
+            "phone": "303-222-2222",
+            "website": "https://www.auroragov.org",
+            "logo": "images/oriental.webp"
+        },
+        {
+            "name": "The Tire Land",
+            "location": {
+                "address1": "1000 Main St",
+                "city": "Aurora",
+                "state": "CO",
+                "zip_code": "80016"
+            },
+            "phone": "303-222-3333",
+            "website": "https://www.auroragov.org",
+            "logo": "images/tireland.jpg"
+        },
+        {
+            "name": "Printer Place",
+            "location": {
+                "address1": "1100 Main St",
+                "city": "Aurora",
+                "state": "CO",
+                "zip_code": "80016"
+            },
+            "phone": "303-222-4444",
+            "website": "https://www.auroragov.org",
+            "logo": "images/printerplace.webp"
+        },
+        {
+            "name": "Candle Carnival",
+            "location": {
+                "address1": "1200 Main St",
+                "city": "Aurora",
+                "state": "CO",
+                "zip_code": "80016"
+            },
+            "phone": "303-222-5555",
+            "website": "https://www.auroragov.org",
+            "logo": "images/candlecarnival.webp"
+        }
+    ]
+}

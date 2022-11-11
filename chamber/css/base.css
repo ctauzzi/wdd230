@@ -348,3 +348,52 @@ textarea {
     padding: 5px;
     margin: 3px;
 }
+
+.directory #content {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+}
+.cards section {
+    border: 2px solid #14213d;
+    background-color: white;
+    padding: 30px;
+    text-align: center;
+    width: 300px;
+    margin: 20px;
+}
+
+.directory .cards img {
+    width: 300px;
+    height: 180px;
+}
+
+.directory .icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.directory table {
+    width: 90%;
+    border-collapse: collapse;
+    margin: auto;
+    overflow: hidden;
+}
+
+.directory td {
+
+    padding: 10px;
+}
+
+tr td {
+    display: block;
+}
