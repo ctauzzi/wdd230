@@ -1,7 +1,7 @@
-const requestURL = 'https://ctauzzi.github.io/WDD230/chamber/data.json';
-const list = document.querySelector('#list-button');
-const table = document.querySelector('.directory-table');
-const grid = document.querySelector('#grid-button');
+const requestURL = 'https://ctauzzi.github.io/wdd230/chamber/data.json';
+const list = document.querySelector('#list');
+const table = document.querySelector('.table');
+const grid = document.querySelector('#grid');
 const cards = document.querySelector('.cards');
 const displayItems = document.querySelector('.displayItems');
 
@@ -78,7 +78,7 @@ function displayTable(business) {
     let name = document.createElement('td');
     name.textContent = business.name;
     tableRow.appendChild(name);
-
+    
     // Business Address
     let address = document.createElement('td');
     address.textContent = business.location.address1 + ' ' + ' ' + business.location.city + ', ' + business.location.state + ' ' + business.location.zip_code;
