@@ -29,14 +29,6 @@ if((myDate.getDay() == 1) || (myDate.getDay() == 2)){
     parent.style.display = "block";
 }
 
-/* Calculates windchill and displays only if certain conditions are met */
-const temperature = document.querySelector("#temp").textContent;
-const windSpeed = document.querySelector("#windSpeed").textContent;
-if((temperature <= 50) && (windSpeed >= 3)){
-    const chill = Math.round((35.74 + (0.6215 * temperature))-(35.75 * Math.pow(windSpeed,0.16)) + (0.4275*temperature*Math.pow(windSpeed,0.16)));
-    document.querySelector("#windChill").innerHTML = chill + "&#8457;";
-}
-
 const dateTime = {
     "month": date.getMonth(),
     "date": date.getDate(),
