@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="./css/base.css">
     <link rel="stylesheet" href="./css/medium.css">
     <link rel="stylesheet" href="./css/large.css">
+    <script defer src="./js/weather-api.js"></script>
     <script defer src="./js/script.js"></script>
 </head>
 <body>
@@ -48,10 +49,9 @@
         <img id="openingimg" src="./images/grandopening.webp" alt="openimg">
     </section>
     <section id="weather">
-        <h1 id="weathersymbol">&#x26C5;</h1>
-        <p><span id="temp">34</span>&#8457;</p>
-        <p>Party Cloudy</p>
-        <p>Wind Speed: <span id="windSpeed">10</span> mph</p>
+        <p>The current temperature in Aurora is <span id="current-temp"></span> &deg;F</p>
+        <P>Wind Speed: <span id="current-speed"></span> mph</p>
+        <p><span id="icon-src"></span></p><figure><img src="" alt="" id="weathericon" /><figcaption></figcaption></figure>
         <p id="wind">Wind Chill: <span id="windChill">N/A</span></p>
     </section>
     <section id="join">
