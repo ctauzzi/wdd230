@@ -187,9 +187,9 @@ section {
 
 #weather {
     display: flex;
-    width: 275px;
     margin: auto;
-
+    padding: 15px;
+    margin: 5px;
 }
 
 #wazoosimg {
