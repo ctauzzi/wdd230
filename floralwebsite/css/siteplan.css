@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Dosis&display=swap');
+
+body {
+    background-color: gray;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h1,h2,h3,p {
+    color: #040403;
+}
+
+h1,h2,h3 {
+    font-family: 'Dancing Script', cursive;
+}
+
+p {
+    font-family: 'Dosis', sans-serif;
+}
+
+.background {
+    color: #C1E1C1;
+}
+
+.navigation {
+    color: #E4E0D7;
+}
+
+.navcolor {
+    color: #040403;
+}
+
+.footer {
+    color: #E4E0D7;
+}
+
+.footertext {
+    color: #040403;
+}

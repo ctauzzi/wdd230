@@ -1,0 +1,40 @@
+@media only screen and (max-width: 800px){
+    #header-title {
+        display: none;
+    }
+    
+    .navbar {
+        flex-direction: column;
+    }
+
+    .logo-container {
+        width: 100%;
+    }
+
+    .nav-menu {
+        display: none;
+        width: 100%;
+    }
+
+    .menu-item {
+        display: block;
+        width: 100%;
+        padding: 5px 0 !important;
+        text-align: end;
+    }
+
+    .menu-icon {
+        display: block;
+        position: absolute;
+        top: 20px;
+        right: 5%;
+    }
+
+    .menu-icon:hover .bar {
+        background-color: white;
+    }
+
+    .active {
+        display: block;
+    }
+}

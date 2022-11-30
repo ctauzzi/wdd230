@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Dosis&display=swap');
+
+body {
+    background-color: #C1E1C1;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h1,h2,h3,p {
+    color: #040403;
+}
+
+h1,h2,h3 {
+    font-family: 'Dancing Script', cursive;
+}
+
+p {
+    font-family: 'Dosis', sans-serif;
+}
+
+a {
+    color: #040403;
+    text-decoration: none;
+    font: bold 22px sans-serif;
+    background: linear-gradient(90deg, transparent, #040403, transparent) bottom /
+		var(--d, 0) 3px no-repeat;
+        transition: 0.5s;
+}
+
+a:hover {
+    color: white;
+    padding: 3px;
+    --d: 75%;
+}
+.navbar {
+    /* make it stick */
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    /* in front of all other elements */
+    z-index: 99;
+    /* set background */
+    background-color: #E4E0D7;
+    padding: 10px 5%;
+
+    /* define flex */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid black;
+    transition: background-color 0.4s ease-out;
+}
+
+.logo-image {
+    display: block;
+    height: 175px;
+    border: 2px solid black;
+}
+
+.nav-menu {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    list-style-image: none;
+}
+
+.menu-item {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.bar {
+    width: 30px;
+    height: 3px;
+    background-color: #040403;
+    margin: 8px auto;
+    align-self: center;
+}
+
+.menu-icon {
+    display: none;
+}
