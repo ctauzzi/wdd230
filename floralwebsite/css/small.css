@@ -38,5 +38,16 @@
         display: block;
     }
 
-    
+    .footer-content {
+        display: block;
+    }
+
+    #footer-img {
+        height: 80px;
+        width: 80px;
+    }
+
+    footer div h2 {
+        display: none;
+    }
 }

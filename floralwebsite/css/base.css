@@ -19,7 +19,7 @@ p {
     font-family: 'Dosis', sans-serif;
 }
 
-a {
+header a {
     color: #040403;
     text-decoration: none;
     font: bold 22px sans-serif;
@@ -28,11 +28,12 @@ a {
         transition: 0.5s;
 }
 
-a:hover {
+header a:hover {
     color: white;
     padding: 3px;
     --d: 75%;
 }
+
 .navbar {
     /* make it stick */
     position: fixed;
@@ -55,7 +56,7 @@ a:hover {
 
 .logo-image {
     display: block;
-    height: 175px;
+    height: 250px;
     border: 2px solid black;
 }
 
@@ -82,3 +83,55 @@ a:hover {
 .menu-icon {
     display: none;
 }
+
+#header-title {
+    font-size: 48px;
+}
+
+#main-img1 {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit:fill;
+    width: 100%;
+    
+}
+
+#homediv1 {
+    margin: 0 auto;
+    margin-top: 400px;
+    font-size: 50px;
+}
+
+#homediv1 h1{
+    color: white;
+}
+
+.footer-content {
+    background-color: #E4E0D7;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    border-top: 1px solid #040403;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+
+#footer-img {
+    height: 150px;
+    width: 150px;
+}
+
+.fa {
+    color: #040403;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  .fa:hover {
+    opacity: 0.7;
+  }

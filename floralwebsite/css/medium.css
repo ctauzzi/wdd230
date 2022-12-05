@@ -1,4 +1,4 @@
-@media only screen and (max-width: 800px){
+@media only screen and (max-width: 825px){
     #header-title {
         display: none;
     }
@@ -36,5 +36,18 @@
 
     .active {
         display: block;
+    }
+
+    .footer-content {
+        display: block;
+    }
+
+    #footer-img {
+        height: 100px;
+        width: 100px;
+    }
+
+    footer div h2 {
+        display: none;
     }
 }
