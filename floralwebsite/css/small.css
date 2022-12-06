@@ -1,10 +1,14 @@
 @media only screen and (max-width: 600px){
-    #header-title {
+    .navbar {
+        flex-direction: column;
+    }
+
+    .socialsimgs-header {
         display: none;
     }
 
-    .navbar {
-        flex-direction: column;
+    header a {
+        font-size: 16px;
     }
 
     .logo-container {

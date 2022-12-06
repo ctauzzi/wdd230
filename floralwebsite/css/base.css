@@ -57,10 +57,14 @@ header a:hover {
     transition: background-color 0.4s ease-out;
 }
 
+.logo-container {
+    align-self: center;
+    margin: 0 auto;
+}
+
 .logo-image {
     display: block;
     height: 250px;
-    border: 2px solid black;
 }
 
 .nav-menu {
@@ -88,7 +92,7 @@ header a:hover {
 }
 
 #header-title {
-    font-size: 70px;
+    font-size: 90px;
 }
 
 #main-img1 {
