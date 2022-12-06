@@ -22,7 +22,9 @@ p {
 header a {
     color: #040403;
     text-decoration: none;
-    font: bold 22px sans-serif;
+    font-family: 'Dosis', sans-serif;
+    font-style: italic;
+    font-size: 22px;
     background: linear-gradient(90deg, transparent, #040403, transparent) bottom /
 		var(--d, 0) 3px no-repeat;
         transition: 0.5s;
@@ -50,6 +52,7 @@ header a:hover {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    text-align: center;
     border-bottom: 1px solid black;
     transition: background-color 0.4s ease-out;
 }
@@ -85,7 +88,7 @@ header a:hover {
 }
 
 #header-title {
-    font-size: 48px;
+    font-size: 70px;
 }
 
 #main-img1 {
