@@ -53,4 +53,21 @@
     footer div h2 {
         display: none;
     }
+
+    #about-main {
+        display: block;
+    }
+
+    #about-img {
+        max-width: 680px;
+        margin: 0 auto;
+    }
+
+    p#about1 {
+        margin: 35px 5px;
+    }
+
+    #gallery-main {
+        margin-top: 180px;
+    }
 }

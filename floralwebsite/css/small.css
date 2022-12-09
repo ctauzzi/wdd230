@@ -54,4 +54,17 @@
     footer div h2 {
         display: none;
     }
+
+    #about-main {
+        display: block;
+    }
+
+    #about-img {
+        max-width: 480px;
+        margin: 0 auto;
+    }
+
+    #gallery-main {
+        margin-top: 100px;
+    }
 }
