@@ -38,7 +38,7 @@
         background-color: white;
     }
 
-    .active {
+    .navactive {
         display: block;
     }
 
@@ -66,5 +66,18 @@
 
     #gallery-main {
         margin-top: 100px;
+    }
+
+    #weddings-main {
+        display: block;
+        margin-top: 100px;
+    }
+
+    #thankyou-main {
+        margin-top: 180px;
+    }
+
+    #contact-main {
+        margin-top: 180px;
     }
 }

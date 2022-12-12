@@ -194,11 +194,182 @@ header a:hover {
     max-width: 450px;
     max-height: 600px;
     margin: 0 auto;
-    padding: 10px;
+    border: 3px solid rgba(0,0,0,0.8);
+    transition: 0.9s;
 }
 
 #gallery-main img:hover {
     filter: none;
+    border: 6px solid rgba(255,255,255,0.8);
+    margin: 10px;
+}
+
+#weddings-head nav {
+    position: sticky;
+}
+
+#contact-head nav {
+    position: sticky;
+}
+
+#weddings-main {
+    margin-top: 240px;
+    text-align: center;
+}
+
+#weddings-main h1 {
+    font-size: 4em;
+}
+
+form {
+    font-family: 'Dosis', sans-serif;
+    margin: 5px auto;
+    padding: 5px;
+    max-width: 400px;
+}
+
+form input:required {
+    border-left: red solid 6px;
+}
+
+form input:required:valid {
+    border-left: green solid 6px;
+}
+
+textarea:required {
+    border-left: red solid 6px;
+}
+
+textarea:required:valid {
+    border-left: green solid 6px;
+}
+
+label, input {
+    display: block;
+    font-size: 1.5em;
+    padding: 5px;
+}
+
+textarea {
+    display: block;
+    text-align: left;
+    height: 150px;
+    width: 400px;
+    margin: 5px auto;
+}
+
+label {
+    text-align:left;
+}
+
+#weddings-main {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#weddings-main h1 {
+    display: block;
+}
+
+#thankyou-main {
+    margin-top: 340px;
+    text-align: center;
+}
+
+#thankyou-main h1,h2 {
+    font-size: 3em;
+}
+
+#contact-main {
+    display: block;
+    margin-top: 320px;
+}
+
+#contact-main h1 {
+    font-size: 3em;
+}
+
+#contact-main h2 {
+    font-size: 2em;
+}
+
+#contact-main p {
+    font-size: 1.5em;
+}
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev {
+    left: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
 }
 
 
