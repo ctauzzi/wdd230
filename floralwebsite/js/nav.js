@@ -26,9 +26,13 @@ function scrollFunction(){
             document.querySelector(".navbar").style.padding = "10px 5%";
             document.querySelector(".logo-image").style.height = "150px";
         }
-    }else{
+    }else if(window.outerWidth <= 600){
         if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
             document.querySelector(".navbar").style.padding = "10px 5%";
+            document.querySelector(".logo-image").style.height = "75px";
+        }
+        else {
+            document.querySelector(".navbar").style.padding = "10 px 3%";
             document.querySelector(".logo-image").style.height = "75px";
         }
     }

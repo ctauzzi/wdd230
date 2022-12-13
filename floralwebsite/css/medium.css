@@ -43,7 +43,7 @@
     }
 
     .footer-content {
-        display: block;
+        display: flex;
     }
 
     #footer-img {
@@ -82,5 +82,8 @@
 
     #contact-main {
         margin-top: 260px;
+    }
+    .logo-image {
+        max-height: 75px;
     }
 }

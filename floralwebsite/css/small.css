@@ -43,7 +43,7 @@
     }
 
     .footer-content {
-        display: block;
+        display: flex;
     }
 
     #footer-img {
@@ -76,8 +76,7 @@
     #thankyou-main {
         margin-top: 180px;
     }
-
-    #contact-main {
-        margin-top: 180px;
+    .logo-image {
+        max-height: 75px;
     }
 }

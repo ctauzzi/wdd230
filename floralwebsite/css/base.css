@@ -298,6 +298,13 @@ label {
     font-size: 3em;
 }
 
+#thankyou-footer {
+    position: fixed;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+
 #contact-main {
     display: block;
     margin-top: 320px;
